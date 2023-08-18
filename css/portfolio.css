@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: #EEEEEE;
+  position: relative;
+}
+
+a:visited,
+a:link {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #2A5D67;
+}
+
+a:hover {
+  color: #171332;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #2A5D67;
+}
+
+/* CLASSES */
+.container-fluid {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.container-fluid.active {
+  background-color: var(--active-color); /* Change this to your desired active color */
+}
+
+.enroll{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.name {
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  font-size: 5rem;
+  line-height: 1.15;
+  color: #2A5D67;
+  margin: 1rem 0;
+}
+
+/* ... your existing styles ... */
+
+.links {
+  background-color: #2A5D67;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.links a:visited,
+.links a:link {
+  color: #EEEEEE;
+  text-decoration: none; /* Add this line to remove underline */
+  transition: color 0.3s; /* Add smooth transition */
+}
+
+.links a:hover {
+  color: #171332;
+}
+
+.green .links {
+  background-color: #2A5D67;
+}
+
+.green .links a:visited,
+.green .links a:link {
+  color: #EEEEEE;
+  text-decoration: none; /* Add this line to remove underline */
+  transition: color 0.3s; /* Add smooth transition */
+}
+
+.green .links a:hover {
+  color: #171332;
+}
+
+.list-group {
+  color: #EEEEEE;
+  font-style: italic;
+  padding: 0.5rem;
+}
+
+.list-group-item {
+  border: none;
+  color: #EEEEEE;
+  padding: 0.25rem 0;
+}
+
+.list-group-item:hover {
+  color: #EEEEEE;
+}
+
+
+/*colors*/
+.light-green {
+  background-color: #EEEEEE;
+}
+.green {
+  background-color: #2A5D67;
+}
+.green .name{
+  color: #EEEEEE;
+}
+.green p{
+  color: #EEEEEE;
+}
+
+.green a{
+  color: #EEEEEE;
+}
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .container-fluid {
+    width: 90%;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+}

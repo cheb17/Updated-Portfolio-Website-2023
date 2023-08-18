@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: #EEEEEE;
+  position: relative;
+}
+
+a:visited,
+a:link {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #2A5D67;
+}
+a:hover {
+  color: #171332;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #2A5D67;
+}
+
+/* CLASSES */
+.container-fluid {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 82vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.name {
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  font-size: 7rem;
+  line-height: 1.15;
+  color: #2A5D67;
+  margin: 1rem 0;
+}
+
+.links {
+  text-align: left;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.list-group {
+  font-style: italic;
+  padding: 0.5rem;
+}
+
+.list-group-item {
+  background-color: #EEEEEE; 
+  border: none; 
+  color: #2A5D67;
+  padding: 0.25rem 0; 
+}
+
+.list-group-item:hover {
+  color: #181D31; 
+}
+
+
